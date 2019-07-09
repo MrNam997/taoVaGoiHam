@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+            // function processConfirm(answer) {
+            //     let result = "";
+            //     if (answer) {
+            //         result = "Excellent. We'll play a nice game of chess.";
+            //     } else {
+            //         result = "Maybe later then.";
+            //     }
+            //     return result;
+            // }
+            // // confirm la mot ham co san cu js
+            // let confirmAnswer = confirm("Shall we play a game?");
+            // let theAnswer = processConfirm(confirmAnswer);
+            // alert(theAnswer);
+            function hamXuLiKhiNguoiDung(TraLoi) {
+                let result;
+                if (TraLoi){
+                    result = 'OK. Chúng tôi sẽ chơi một ván cờ đẹp';
+                } else {
+                    result = 'Sau do la gi ta ?'
+                }
+                return result;
+            }
+            let xacNhan = confirm('Chúng ta sẽ chơi một trò chơi?');
+            let cauTraLoi = hamXuLiKhiNguoiDung(xacNhan);
+            alert(cauTraLoi);
+
+</script>
+
+</body>
+</html>
